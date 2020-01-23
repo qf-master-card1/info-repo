@@ -18,13 +18,13 @@
   <distributionManagement>
     <repository>
       <id>central</id>
-      <name>ip-172.31.40.221-releases</name>
-      <url>http://3.19.66.176:8081/artifactory/libs-release</url>
+      <name>ip-172.31.36.89-releases</name>
+      <url>http://52.15.103.132:8081/artifactory/libs-release</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <name>ip-172.31.40.221-snapshots</name>
-      <url>http://3.19.66.176:8081/artifactory/libs-snapshot</url>
+      <name>ip-172.31.36.89-snapshots</name>
+      <url>http://52.15.103.132:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
  <distributionManagement>
  </project>
