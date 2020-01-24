@@ -15,4 +15,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>ip-172.31.40.221-snapshots</name>
+      <url>http://3.19.30.81:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+  <distributionManagement>
    </project>
