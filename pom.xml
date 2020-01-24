@@ -16,18 +16,11 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-    <repository>
-    <id>central</id>
-      <name>ip-172.31.40.221-releases</name>
-      <url>http://172.31.40.221:8081/artifactory/libs-release</url>
-    </repository
-    <snapshotRepository>
+        <snapshotRepository>
       <id>snapshots</id>
       <name>ip-172.31.40.221-snapshots</name>
       <url>http://172.31.40.221:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
   </distributionManagement>
-
-
 
 </project>
