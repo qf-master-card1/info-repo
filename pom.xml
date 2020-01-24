@@ -19,61 +19,15 @@
     <repository>
     <id>central</id>
       <name>ip-172.31.40.221-releases</name>
-      <url>http://3.19.30.81:8081/artifactory/libs-release</url>
+      <url>http://172.31.40.221:8081/artifactory/libs-release</url>
     </repository
     <snapshotRepository>
       <id>snapshots</id>
       <name>ip-172.31.40.221-snapshots</name>
-      <url>http://3.19.30.81:8081/artifactory/libs-snapshot</url>
+      <url>http://172.31.40.221:8081/artifactory/libs-snapshot</url>
     </snapshotRepository>
   </distributionManagement>
-   
- <profiles>
-  <profile>
-    <repositories>
-      <repository>
-         <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-           <id>maven-test</id>
-            <name>maven-test</name>
-            <url>http://maven.apache.org</url>
-          </repository>
-          <repository>
-              <snapshots>
-	              <enabled>false</enabled>
-               </snapshots>
-               <id>central</id>
-               <name>libs-release</name>
-               <url>http://3.19.30.81:8081/artifactory/libs-release</url>
-             </repository>
-             <repository>
-                  <snapshots  />
-                  <id>snapshots</id>
-                  <name>libs-snapshot</name>
-                  <url>http://3.19.30.81:8081/artifactory/libs-snapshot</url>
-                  <repository>
-                </repositories>
-                <pluginRepositories>
-                    <pluginRepository>
-                       <snapshots>
-                             <enabled>false</enabled>
-                         </snapshots>
-                         <id>central</id>
-                          <name>libs-release</name>
-                          <url>http://3.19.30.81:8081/artifactory/libs-release</url>
-                       </pluginRepository>
-                       <pluginRepository>
-                             <snapshots />
-                              <id>snapshots</id>
-                              <name>libs-snapshot</name>
-                              <url>http://3.19.30.81:8081/artifactory/libs-snapshot</url>
-                            </pluginRepository>
-                          </pluginRepository>
-                           <id>artifactory</id>
-                         </profile>
-                       </profiles>
-                       <activeProfiles>
-                       <activeProfile>artifactory</activeProfile>
-                   </activeProfiles>  
-                </project>
+
+
+
+</project>
